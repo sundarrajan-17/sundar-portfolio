@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sundar-portfolio/static/css/main.1a309986.css",
+    "main.js": "/sundar-portfolio/static/js/main.d7c88db1.js",
+    "index.html": "/sundar-portfolio/index.html",
+    "main.1a309986.css.map": "/sundar-portfolio/static/css/main.1a309986.css.map",
+    "main.d7c88db1.js.map": "/sundar-portfolio/static/js/main.d7c88db1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a309986.css",
+    "static/js/main.d7c88db1.js"
+  ]
+}
