@@ -1,13 +1,237 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.name-list li:nth-child(odd) {
+  color: #4d1b70;
+}
+.name-list li:nth-child(even) {
+  color: #3d0458;
+}
+.nav-bar li {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-bar a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #3d2f15;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.9s ease all;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-bar a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-bar .res-nav {
+  display: none;
+}
+
+.nav-bar li a:hover{
+  color: rgb(61, 7, 61);
+  transition: ease-in-out;
+}
+
+.animation1 {
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  animation: spin 5s linear infinite;
+}
+.animation2 {
+  top: 80%;
+  left: 50%;
+  width: 100px;
+  animation: spin 5s linear infinite;
+}
+.animation3{
+  top:80% ;
+  left : 15%;
+  width:  100px;
+  height: auto;
+  animation: go 8s linear infinite;
+}
+.icon1,
+.icon2 {
+  font-size: 80px;
+  opacity: 0.2;
+}
+
+.header details{
+  display: none;
+}
+
+.skill-icon li img{
+  width: 12rem;
+}
+
+.contacts{
+  padding: 10px;
+}
+
+.contacts .texts{
+  font-weight: 400;
+}
+
+.contacts textarea{
+  border: 2px rgb(94, 112, 165) solid;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: rgb(237, 235, 235);
+  color: rgb(1, 0, 0);
+}
+
+.service-btn:hover{
+  background-color: rgb(50, 24, 93);
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(-360deg) translateZ(0);
+    -ms-transform: rotate(-360deg) translateZ(0);
+    transform: rotate(-360deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+    -ms-transform: rotate(0deg) translateZ(0);
+    transform: rotate(0deg) translateZ(0);
+  }
+}
+
+@keyframes go {
+  0%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 0.8;
+    top:20%;
+    left:40%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .nav{
+    display: none;
+  }
+  .header details{
+    display: block;
+  }
+  .header details ul li{
+    padding: 0.5rem;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .contacts .texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+  .about .p2 {
+    display: none;
+  }
+  .about p,
+  .home p {
+    font-size: 1.6rem;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: 450;
+  }
+  .about h1,
+  .home h1 {
+    padding: 2%;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .skills{
+    padding: 1px;
+  }
+  .skills h1{
+    font-size: 30px;
+  }
+  .skills .skill-pics{
+    padding: 5px;
+  }
+  .skill-icon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  .skill-icon li img{
+    width: 6rem;
+  }
+  .projects h1{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about p,
+  .home p {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .about h1,
+  .home h1 {
+    padding: 2%;
+    font-size: 2rem;
+  }
+  .about .image{
+    width: 35%;
+  }
+  .about .content{
+    width: 65%;
+  }
+  .skill-icon li img{
+    width: 5rem;
+  }
+  .service-contents{
+    padding: 2%;
+  }
+  .service-contents .card{
+    width: 20rem;
+  }
+  .footer div{
+    font-size: 1.2rem;
+  }
+  .footer div ul li{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header details ul li{
+    padding: 0.2rem;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .about p,
+  .home p {
+    font-size: 1rem;
+    letter-spacing: 0.5;
+    line-height: 1.2;
+  }
+  .about h1,
+  .home h1 {
+    padding: 2%;
+    font-size: 1.4rem;
+  }
+  .about .p2,
+  .about .p3 {
+    display: none;
+  }
 }
