@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/sundar-portfolio/static/css/main.1a309986.css",
-    "main.js": "/sundar-portfolio/static/js/main.d7c88db1.js",
+    "main.css": "/sundar-portfolio/static/css/main.ea8bba17.css",
+    "main.js": "/sundar-portfolio/static/js/main.0c26fa73.js",
+    "static/media/project1.png": "/sundar-portfolio/static/media/project1.86a1548d740669f284be.png",
+    "static/media/project4.png": "/sundar-portfolio/static/media/project4.92837c0a61b020328e68.png",
+    "static/media/project3.png": "/sundar-portfolio/static/media/project3.bf27400b57dacad58729.png",
+    "static/media/project2.png": "/sundar-portfolio/static/media/project2.6e6f28f21fbd0c64b1a5.png",
+    "static/media/sundarphoto.jpg": "/sundar-portfolio/static/media/sundarphoto.9d95c73cb5df1185a6d4.jpg",
     "index.html": "/sundar-portfolio/index.html",
-    "main.1a309986.css.map": "/sundar-portfolio/static/css/main.1a309986.css.map",
-    "main.d7c88db1.js.map": "/sundar-portfolio/static/js/main.d7c88db1.js.map"
+    "main.ea8bba17.css.map": "/sundar-portfolio/static/css/main.ea8bba17.css.map",
+    "main.0c26fa73.js.map": "/sundar-portfolio/static/js/main.0c26fa73.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a309986.css",
-    "static/js/main.d7c88db1.js"
+    "static/css/main.ea8bba17.css",
+    "static/js/main.0c26fa73.js"
   ]
 }
