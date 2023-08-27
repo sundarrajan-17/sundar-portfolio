@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .name-list li:nth-child(odd) {
-  color: #4d1b70;
+  color: #630fa0;
 }
 .name-list li:nth-child(even) {
-  color: #3d0458;
+  color: #66027a;
 }
 .nav-bar li {
   position: relative;

@@ -26,7 +26,7 @@ const Header = () => {
                 <li>N</li>
             </ul>
         </div>
-        <div className='text-xl font-semibold text-purple-900 nav'>
+        <div className='text-xl font-semibold text-[#19376D] nav'>
             <ul className='nav-bar flex gap-5'>
                 <li><AiOutlineHome/><a href='#home'>HOME</a></li>
                 <li><BiUserCircle/><a href='#about'>ABOUT</a></li>

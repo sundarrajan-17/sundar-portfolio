@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from '../Images/sundarphoto.jpg'
 import {FaReact} from 'react-icons/fa'
 import {IoStarOutline} from 'react-icons/io5'
 import {GoRocket} from 'react-icons/go'
@@ -29,7 +30,7 @@ const Home = () => {
          <button className='btn btn-accent w-[12rem] text-lg'><a href="#projects">SEE MY WORK</a></button>
       </div>
       <div className='w-[40%] p-[3%]'>
-         <img src='./Images/sundarphoto.jpg' alt='profile-pic' className='w-[90%]'/>
+         <img src={Profile} alt='profile-pic' className='w-[90%]'/>
       </div>
     </div>
   )

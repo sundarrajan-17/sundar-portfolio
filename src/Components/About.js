@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Profile from '../Images/sundarphoto.jpg'
 
 const About = () => {
   return (
     <div className='about flex items-center p-[3%] gap-[6%]' id="about">
         <div className='w-[45%] md:w-[35%] image'>
-            <img src='./Images/sundarphoto.jpg' alt='profile-pic' className='w-[90%]'/>
+            <img src={Profile} alt='profile-pic' className='w-[90%]'/>
         </div>
         <div className='w-[55%] text-3xl content'>
             <h1 className='text-center text-5xl p-[6%] font-semibold'>About Me</h1>
