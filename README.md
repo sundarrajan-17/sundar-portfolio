@@ -62,6 +62,6 @@ To run my portfolio website locally, follow these steps:
 
 Contact
 
-Let's connect and collaborate! Reach out to me via email(sundar170802@gmail.com) or connect with me on LinkedIn(SUNDARRAJAN P). I'm excited to discuss web development, projects, and opportunities.
+Let's connect and collaborate! Reach out to me via email(sundar170802@gmail.com) or connect with me on LinkedIn(https://www.linkedin.com/in/sundarrajan-p-988634213/). I'm excited to discuss web development, projects, and opportunities.
 
 Thank you for visiting my portfolio!
