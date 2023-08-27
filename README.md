@@ -1,7 +1,7 @@
 Sundarrajan's Portfolio
 
 Description:
-    Welcome to my portfolio website! This project showcases my skills, projects and technologies used as a web developer.
+    Welcome to my portfolio website! This project showcases my journey, skills, projects in the world of web development.
 
 Table of Contents:
 
@@ -58,3 +58,10 @@ To run my portfolio website locally, follow these steps:
    npm start
 
 5. Open your browser and go to http://localhost:3000 to view the portfolio.
+
+
+Contact
+
+Let's connect and collaborate! Reach out to me via email(sundar170802@gmail.com) or connect with me on LinkedIn(SUNDARRAJAN P). I'm excited to discuss web development, projects, and opportunities.
+
+Thank you for visiting my portfolio!
