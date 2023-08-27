@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Sundarrajan's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description:
+    Welcome to my portfolio website! This project showcases my skills, projects and technologies used as a web developer.
 
-## Available Scripts
+Table of Contents:
 
-In the project directory, you can run:
+  -About Me
+  -Projects
+  -Skills
+  -Contact
 
-### `npm start`
+About Me:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    I'm a passionate and innovative web developer with a thinking of turning ideas into stunning digital experiences. From crafting responsive layouts to breathing life into interfaces with dynamic interactions, coding is where my magic happens.I've always been fascinated by the intersection of technology and creativity, and web development is where these passions collide beautifully.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projects
 
-### `npm test`
+Project 1: [Movie App](https://sundarrajan-17/Movie)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    In this movie website, you see some movie list on the main page and there’s a search bar in the header so you can search for and movie and you get its Poster image, movie title, movie overview, and movie ratings.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project 2: [Seminar Website](https://sundarrajan-17/seminar-website)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    It is a static website and It includes React-Router-Dom to manage Routing in Website.Ensured that the website was fully responsive and compatible with various devices, including desktops, tablets and smartphones.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- HTML5 & CSS3
+- JavaScript
+- Tailwind Css, Bootstrap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run my portfolio website locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/sundarrajan-17/sundar-portfolio.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   cd sundar-portfolio
 
-### Code Splitting
+3. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   npm install
 
-### Analyzing the Bundle Size
+4. Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   npm start
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Open your browser and go to http://localhost:3000 to view the portfolio.
