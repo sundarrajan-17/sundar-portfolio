@@ -6,8 +6,11 @@ Description:
 Table of Contents:
 
   -About Me
+  
   -Projects
+  
   -Skills
+  
   -Contact
 
 About Me:
@@ -16,12 +19,12 @@ About Me:
 
 Projects
 
-Project 1: [Movie App](https://sundarrajan-17/Movie)
+Project 1: [Movie App](https://github.com/sundarrajan-17/Movie)
 
     In this movie website, you see some movie list on the main page and there’s a search bar in the header so you can search for and movie and you get its Poster image, movie title, movie overview, and movie ratings.
 
 
-Project 2: [Seminar Website](https://sundarrajan-17/seminar-website)
+Project 2: [Seminar Website](https://github.com/sundarrajan-17/seminar-website)
 
     It is a static website and It includes React-Router-Dom to manage Routing in Website.Ensured that the website was fully responsive and compatible with various devices, including desktops, tablets and smartphones.
 
