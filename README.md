@@ -1,4 +1,4 @@
-Sundarrajan's Portfolio
+SUNDARRAJAN's Portfolio
 
 Description:
     Welcome to my portfolio website! This project showcases my journey, skills, projects in the world of web development.
